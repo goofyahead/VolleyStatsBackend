@@ -1,0 +1,27 @@
+{
+	"name": "VolleyStats",
+	"description": "Rest server example",
+	"version": "0.0.1-2",
+	"private": "true",
+	"dependencies": {
+		"express": "*",
+		"mongodb": "~2.0",
+		"cookie-parser": "~1.0.1",
+		"static-favicon": "~1.0.0",
+		"cookie-parser": "~1.0.1",
+		"body-parser": "~1.0.0",
+		"connect-multiparty": "*",
+		"underscore" : "*",
+		"redis" : "0.12.1",
+		"braintree" : "1.29.0",
+		"async" : "1.4.2"
+		},
+	"engines": {
+		"node": "0.8.x",
+		"npm": "1.1.x"
+		},
+		"subdomain": "goofyahead.manageat",
+		"scripts": {
+			"start": "node server.js"
+		}
+}
